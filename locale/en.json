@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Desktop control",
+    "description": "Lets the model drive this computer for real: mouse, keyboard, screenshots, windows, apps and system actions. Anything that needs administrator rights, deletes files, powers off, changes a service or touches the registry asks for your approval first.",
+    "detail": "docs/DETAIL.md"
+  }
+}
