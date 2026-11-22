@@ -1,0 +1,4 @@
+- insert:
+    - id: desktop-control
+      name: '@local/desktop-control'
+      config: {}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Desktop control">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#132a4a"/>
+      <stop offset="1" stop-color="#0a1626"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cfe4ff"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38d6c4"/>
+      <stop offset="1" stop-color="#1e8f9c"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>
+  <rect x="8.75" y="8.75" width="238.5" height="238.5" rx="55.25" fill="none" stroke="#2b4a72" stroke-width="1.5"/>
+  <g stroke="#5b8cc4" stroke-width="2" stroke-linecap="round" opacity="0.55">
+    <path d="M40 74h34M40 74v34"/>
+    <path d="M216 74h-34M216 74v34"/>
+    <path d="M40 182h34M40 182v-34"/>
+  </g>
+  <path d="M92 56 L92 176 L120 148 L139 190 L162 179 L143 137 L181 133 Z"
+        fill="url(#cursor)" stroke="#0a1626" stroke-width="7" stroke-linejoin="round"/>
+  <g transform="translate(150 150)">
+    <path d="M28 0 L56 10 L56 34 C56 52 44 64 28 72 C12 64 0 52 0 34 L0 10 Z"
+          fill="url(#shield)" stroke="#0a1626" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M15 34 L24 44 L42 23" fill="none" stroke="#0a1626" stroke-width="7"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "name": "@local/desktop-control",
+  "version": "1.1.4",
+  "private": true,
+  "type": "module",
+  "description": "Desktop control for DeepSeek Harness: real mouse, keyboard, screenshots, windows, apps and system actions, with user approval before anything destructive or privileged.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "native/DesktopControl.cs",
+    "native/DesktopControl.exe",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
